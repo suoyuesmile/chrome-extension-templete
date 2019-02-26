@@ -1,0 +1,80 @@
+{
+  "editor.fontWeight": "400",
+  "editor.letterSpacing": 0.2,
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "extensions.ignoreRecommendations": false,
+  "window.zoomLevel": 0,
+  "files.autoSave": "onFocusChange",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.lineHeight": 24,
+  "terminal.integrated.fontWeight": "100",
+  "terminal.integrated.fontWeightBold": "100",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "git.autofetch": true,
+  // Set the default
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "stylusSupremacy.insertColons": false, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "gitProjectManager.baseProjectsFolders": ["/home/Users/suoyue/project"],
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  // "background.customImages": [
+  //     "/Users/suoyue/Pictures/bg.jpg"
+  // ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1d1c1c",
+    "statusBar.noFolderBackground": "#0A0A0D",
+    "statusBar.debuggingBackground": "#511f1f"
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "gitlens.views.repositories.files.layout": "auto",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "workbench.colorTheme": "Spacegray Ocean Dark",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "prettier.tabWidth": 2,
+  "eslint.autoFixOnSave": false,
+  "vetur.format.options.tabSize": 2,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "element-helper.version": "2.5",
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "[html]": {} // 两个选择器中是否换行
+}

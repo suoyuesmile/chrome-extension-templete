@@ -1,0 +1,12 @@
+{
+  "name": "shengtu-chrome-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/suoyuesmile/shengtu-chrome-extension.git",
+  "author": "shaosuo <shaosuo@youmi.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "glup": "^1.0.14",
+    "gulp-cli": "^2.0.1"
+  }
+}

@@ -1,25 +1,13 @@
-//-------------------- 右键菜单演示 ------------------------//
+// 右键菜单功能
 chrome.contextMenus.create({
-  title: '检测广告敏感词',
+  title: '采集图片',
   onclick: function() {
-    chrome.notifications.create(null, {
-      type: 'basic',
-      iconUrl: 'img/icon.png',
-      title: '这是标题',
-      message: '您刚才点击了自定义右键菜单！'
-    })
-  }
-})
-
-chrome.contextMenus.create({
-  title: '检测网页错别词', // %s表示选中的文字
-  contexts: ['selection'], // 只有当选中文字时才会出现此右键菜单
-  onclick: function(params) {
-    // 注意不能使用location.href，因为location是属于background的window对象
-    chrome.tabs.create({
-      url:
-        'https://www.baidu.com/s?ie=utf-8&wd=' + encodeURI(params.selectionText)
-    })
+    // chrome.notifications.create(null, {
+    //   type: 'basic',
+    //   iconUrl: 'img/icon.png',
+    //   title: '这是标题',
+    //   message: '您刚才点击了自定义右键菜单！'
+    // })
   }
 })
 
@@ -34,7 +22,6 @@ function sendMessageToContentScript(message, callback) {
 
 function getData(url, callback) {
   sendMessageToContentScript({ cmd: 'getInnerText' }, function(response) {
-    // alert(response);
     callback(response)
   })
 }
